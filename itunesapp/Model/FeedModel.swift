@@ -19,7 +19,7 @@ struct FeedModel: Decodable{
     let copyright, country: String
     let icon: String
     let updated: String
-    var results: [Album]?
+var results: [Album]?
    
     
     
